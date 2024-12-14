@@ -4,6 +4,7 @@ import Pro from './components/Pro'
 import Banner from './components/Banner'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
+import Navbar from './components/Navbar';
 
 const Loader = () => {
   const loaderVariants = {
@@ -62,6 +63,7 @@ const App = () => {
           className="min-h-screen bg-black "
         >
         <Banner/>
+        <Navbar/>
         <Hero/>
         <Pro/>
         <Footer/>
